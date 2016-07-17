@@ -22,12 +22,20 @@ body, html { font-size: 70%; padding: 0; margin: 0; height: 100%;}
 }
 /* 'Central gothic' */
 body {
-    font-family: Calibri, sans-serif, Helvetica, Arial, 'Lato';
+    font-family: "Adobe Caslon Pro", Calibri, Helvetica, sans-serif, Arial,'Lato';/*"Adobe Caslon Pro","Source Sans Pro", NY Irvin*/
     color: #f2ede3;
     background: #333;
-    font-size: 0.9em;
+    font-size: 0.8em;/*0.9em;*/
     font-weight: 300;
+    letter-spacing: 0.65px;
 }
+
+/*table {
+    font-family: "Adobe Caslon Pro", Calibri, Helvetica, sans-serif, Arial,'Lato';
+    font-size: 1.8em;
+    font-weight: 300;
+    letter-spacing: 0.65px;
+}*/
 /* body f2ede3 */
 
 /*a {
@@ -120,14 +128,14 @@ a:hover {
 	margin: 0;
 	padding: 20px;
 	width: 100%;
-	font-size: 2em;
+	font-size: 2.5em;
 	letter-spacing: 2px;
 	font-weight: 700;
 	text-transform: uppercase;
 }
 
 .bl-icon {
-	font-family: 'icomoon';
+	font-family: 'icomoon', "NY Irvin", Calibri, Helvetica, sans-serif;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -198,19 +206,25 @@ div.bl-panel-items > div > div {
 }
 
 .bl-content h2 {
-	font-size: 3em;
-	font-weight: 300;
-	margin: 0 0 20px 0;
+        font-family:  "NY Irvin", Calibri, Helvetica, sans-serif, Arial,'Lato';/*"Adobe Caslon Pro","Source Sans Pro", NY Irvin*/
+	font-size: 3.5em;
+	font-weight: 700;
+	margin: 0 0 15px 0;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
 }
 
 .bl-content h3 {
-	font-size: 2em;
-	font-weight: 300;
+        font-family: "NY Irvin", Calibri, Helvetica, sans-serif, Arial,'Lato';/*"Adobe Caslon Pro","Source Sans Pro", NY Irvin*/
+	font-size: 3em;
+	font-weight: 700;
 	margin: 0 0 10px 0;
+        text-transform: uppercase;
 }
 
 .bl-content article {
 	padding: 10px 40px 0px 0px;
+        width: 80%;
 }
 
 .bl-content article h3 {
@@ -219,7 +233,8 @@ div.bl-panel-items > div > div {
 	text-transform: uppercase;
 	margin: 0 0 5px 0;
 	padding-top: 10px;
-	font-size: 1.8em;
+        padding-bottom: 5px;
+	font-size: 2.5em;/*1.8em;*/
 }
 
 /*.bl-content article a {
